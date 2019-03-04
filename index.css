@@ -1,0 +1,79 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.overlay.hidden{
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut{
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.navbar{
+    height: 50px;
+}
+
+.myself,.skills{
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.myself{
+    background-image: url("self.jpg");
+    background-color: black;
+    min-height: 750px;
+    background-size: 500px;
+    width: 100%;
+}
+
+.skills{
+    background-image: url("adventure11.jpg");
+    min-height: 550px;
+    background-size: cover;
+}
+
+.section{
+    padding: 50px 500px 50px 500px;
+    background-color: #eeeeee;   
+}
+
+.name{
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    color: aqua;
+    text-align: center;
+    font-size: 50px;
+}
+
+.intro2{
+    position: absolute;
+    top: 60%;
+    left: 54%;
+    color: aqua;
+    text-align: center;
+    font-size: 20px;
+}
