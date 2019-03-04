@@ -20,7 +20,7 @@ html, body {
 }
 
 .overlay.hidden{
-    animation: fadeOut 1s;
+    animation: fadeOut 3s;
     animation-fill-mode: forwards;
 }
 
@@ -50,7 +50,7 @@ html, body {
 }
 
 .skills{
-    background-image: url("adventure11.jpg");
+    background-image: url("web.jpg");
     min-height: 550px;
     background-size: cover;
 }
@@ -60,6 +60,12 @@ html, body {
     background-color: #eeeeee;   
 }
 
+.skillsection{
+    padding: 50px 500px 50px 500px;
+    background-color: #eeeeee; 
+    min-height: 450px;
+}
+
 .name{
     position: absolute;
     top: 50%;
@@ -67,6 +73,7 @@ html, body {
     color: aqua;
     text-align: center;
     font-size: 50px;
+    letter-spacing: 15px;
 }
 
 .intro2{
@@ -76,4 +83,10 @@ html, body {
     color: aqua;
     text-align: center;
     font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.progress{
+    position: relative;
+    /* margin-top: 100px; */
 }
