@@ -55,12 +55,6 @@ html, body {
     background-size: cover;
 }
 
-.section3{
-    background-image: url("passion.jpg");
-    min-height: 550px;
-    background-size: cover;
-}
-
 .section{
     padding: 50px 500px 50px 500px;
     background-color: #eeeeee;   
